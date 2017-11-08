@@ -4,7 +4,7 @@
 
 1. The Difference between Instance Functions and Static Functions
 2. Defining a Class Function
-3. Delcaring a Class Variable
+3. Declaring a Class Variable
 4. Using Class Variables in an Instance Function
 
 ### Class Functions
@@ -222,3 +222,4 @@ let matchingUser = User.FindByEmail("sarah@flatironschool.com")
 
 * [MDN static functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 * [Private Data Naming Conventions](http://exploringjs.com/es6/ch_classes.html#sec_private-data-for-classes#_private-data-via-a-naming-convention)
+* [Static Functions](https://javascript.info/class#static-methods)
