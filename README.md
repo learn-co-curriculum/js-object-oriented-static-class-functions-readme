@@ -22,7 +22,7 @@ class User {
   }
 }
 
-var sarah = new User('sarah');
+var sarah = new User('Sarah');
 sarah.sayHello(); // Hello, my name is Sarah
 ```
 
@@ -30,7 +30,7 @@ When desigining classes, we think a lot about responsibility of behavior and dat
 
 In the example above, would it be `sarah`'s, an instance of the `User` class, responsibility to return to our system all the other instances of the `User` class? No. `sarah`, an instance, is solely responsible for behavoir related to her. 
 
-It should the `User` classes responsibility. The desired code might look like `User.All()`, a function attached directly to the `User` class the returns all instances of a `User`.
+It should be the `User` classes responsibility. The desired code might look like `User.All()`, a function attached directly to the `User` class the returns all instances of a `User`.
 
 In Object Orientation in Javascript we call functions that operate on the `class` itself `static` functions (or Class Functions). Let's implement a stubbed out version of this `User.All()`.
 
