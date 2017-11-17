@@ -1,5 +1,7 @@
 # Static Class Functions with Classes
 
+so cool
+
 ## Objectives
 
 1. The Difference between Instance Functions and Static Functions
